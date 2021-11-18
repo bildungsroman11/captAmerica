@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 2</title>
+      <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <style>
+
+      .bod{
+        background-repeat: no-repeat;
+        position: absolute;
+      }
+
+      .bod::before {
+      content: "";
+      background-image: url("CA_3.jpg");
+      background-size: cover;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+
+
+      .h1{
+        text-align: center;
+        color: blue;
+        font-family: 'Crimson Text', serif;
+        font-size: 350%;
+        margin-top: 0%;
+        position: relative;
+
+      }
+      .h2{
+        color: blue;
+        text-align: center;
+        font-family: 'Crimson Text', serif;
+        font-size: 275%;
+        position: relative;
+      }
+
+      .p{
+        width: 50%
+      }
+
+      .img1{
+        text-align: left;
+        height: 5%;
+        width: 5%;
+      }
+
+      .pics{
+        float: left;
+        width: 30%;
+        padding: 23px;
+      }
+
+      .rival::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+
+      div{
+        display: inline-block;
+        font-family: 'Crimson Text', serif;
+        font-size: 150%;
+        color:red;
+        margin-bottom: 0%;
+        position: relative;
+      }
+
+      .div3{
+        text-align: center;
+      }
+
+      .ul1{
+        background-color: red;
+        overflow: hidden;
+        margin-top: auto;
+      }
+
+      .ul2{
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 425%;
+        margin-left: 35%;
+      }
+
+      .li1{
+        font-family: 'Crimson Text', serif;
+        display: inline;
+        position: relative;
+      }
+      li a{
+        padding: 10px 10px;
+        color: white;
+        font-size: 150%;
+        text-decoration: none;
+      }
+
+      .li2{
+        font-family: 'Crimson Text', serif;
+        color: red;
+        font-size: 100%;
+      }
+
+      .li3{
+        font-family: 'Crimson Text', serif;
+        color: red;
+        font-size: 100%;
+        list-style-type: none;
+        display: block;
+        flex: 0 1 auto;
+      }
+
+
+      footer{
+        text-align: center;
+        font-family: 'Crimson Text', serif;
+        text-decoration: none;
+        color: white;
+        position: relative;
+      }
+
+    </style>
+  </head>
+
+  <body class="bod">
+    <h1 class="h1">Captain America</h1>
+    <nav>
+      <ul class="ul1">
+        <li class="li1"><a href="#top"><img class="img1" src="CA_head.png" alt="headlogo"></a></li>
+        <li class="li1"><a href="#abilities">Abilities</a></li>
+        <li class="li1"><a href="#bio">Biography</a></li>
+        <li class="li1"><a href="#rival">Rivals</a></li>
+      </ul>
+    </nav>
+    <h2 class="h2", id="bio">Biography</h2>
+    <div>
+      <p class="p">
+        My name is Steve Rogers and I was born in New York, New York.
+        I applied to the United States Army during the height of WWII, but was denied because I was a very unathletic small, skinny, sick looking kid.
+        However I caught the eye of Dr.Abrahan Erskine and was offered an oppurtunity to take part in an experiment called Operation Rebirth.
+        This is where I was injected with the Super-Solider serum. This formula not only made me the peak of human effciency, but from there on out
+        I would be Captian Rogers.
+      </p>
+    </div>
+    <h2 class ="h2", id="abilities">Abilities</h2>
+    <div>
+      <ul>
+        <li class="li2">Superior Olympic agility, strength, speed, endurance, and reaction time</li>
+        <li class="li2">Master in American-style boxing and Judo</li>
+        <li class="li2">Vibrinium Shield</li>
+      </ul>
+    </div>
+    <h2 class ="h2", id="rival">Rivals</h2>
+    <div class="div3">
+      <ul class="ul2">
+        <li class="li3">Red Skull</li>
+        <li class="li3">Thanos</li>
+        <li class="li3">Ultron</li>
+      </ul>
+    </div>
+    <div class="rival">
+      <div class="pics">
+        <img src="red_skully.jpg" alt="red_skully" style="width:100%"/>
+      </div>
+      <div class="pics">
+        <img src="thanos.jpg" alt="thanos" style="width:100%" />
+      </div>
+      <div class="pics">
+        <img src="ultron.jpg" alt="ultron" style="width:100%" />
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <a href="https://www.marvel.com/characters/captain-america-steve-rogers">Full detailed info on Captain Rogers</a>
+  </footer>
+</html>
